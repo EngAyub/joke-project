@@ -1,7 +1,9 @@
-function SingleJoke() {
+import React from "react";
+
+function SingleJoke({ joke }) {
   return (
     <div className="content">
-      <h2 className="joke">the is just a text</h2>
+      <h2 className="joke">{joke}</h2>
     </div>
   );
 }
